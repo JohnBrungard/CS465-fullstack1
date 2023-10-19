@@ -17,7 +17,9 @@ Express also defines a directory structure. Furthermore, Express uses sessions s
 
 <p>One instance of refactoring was replacing the static HTML pages with templates using Handlebars, particularly the travel.html file to render each trip without a page reload. This enabled /travel to drive the rendered page dynamically by data passed into the template and reduced the 120 lines of static HTML down to 35 lines.  </p>
 
-<p>We also refactored the Express backend and Angular SPA frontend to include authentication, particularly for CRUD operations involving trips. This made it to where authentication middleware injections are keys to protect the API routes from unauthenticated callers </p>
+<p>We also refactored the Express backend and Angular SPA frontend to include authentication, particularly for CRUD operations involving trips. This made it to where authentication middleware injections are keys to protect the API routes from unauthenticated callers. </p>
+
+<p></p>
 
 <b>Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.</b>
 
