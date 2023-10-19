@@ -15,6 +15,10 @@ Express also defines a directory structure. Furthermore, Express uses sessions s
 
 <b>Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.</b>
 
+<p>One instance of refactoring was replacing the static HTML pages with templates using Handlebars, particularly the travel.html file to render each trip without a page reload. This enabled /travel to drive the rendered page dynamically by data passed into the template and reduced the 120 lines of static HTML down to 35 lines.  </p>
+
+<p>We also refactored the Express backend and Angular SPA frontend to include authentication, particularly for CRUD operations involving trips. This made it to where authentication middleware injections are keys to protect the API routes from unauthenticated callers </p>
+
 <b>Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.</b>
 
 <p>We use API Testing to ensure the SPA is working with the API in which we make requests to the API endpoints and compare their responses with the actual results. For our project, we performed this by checking the backend API by checking MongoDB for data that was added and the data that was retrieved. We also analyzed the powershell for certain codes to determine success such as 200 and 201 for correct actions and 400 and 500 for unintended results.</p> 
