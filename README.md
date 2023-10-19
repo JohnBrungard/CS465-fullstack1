@@ -15,7 +15,7 @@ Express also defines a directory structure. Furthermore, Express uses sessions s
 
 <b>Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.</b>
 
-<p>One instance of refactoring was replacing the static HTML pages with templates using Handlebars, particularly the travel.html file to render each trip without a page reload. This enabled /travel to drive the rendered page dynamically by data passed into the template and reduced the 120 lines of static HTML down to 35 lines.  </p>
+<p>One instance of refactoring was replacing the static HTML pages with templates using Handlebars, particularly the travel.html file to render each trip without a page reload. This enabled /travel to drive the rendered page dynamically by data passed into the template and reduced the 120 lines of static HTML down to 35 lines. It also made it to where the structure of the page did not require a reload or refresh, thus making changes to the interface seem almost instant.  </p>
 
 <p>We also refactored the Express backend and Angular SPA frontend to include authentication, particularly for CRUD operations involving trips. This made it to where authentication middleware injections are keys to protect the API routes from unauthenticated callers. </p>
 
